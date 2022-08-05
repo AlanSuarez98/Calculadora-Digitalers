@@ -9,6 +9,7 @@ header{
     align-items: center;
     background-color: rgb(99, 4, 4);
     height: 100%;
+    opacity: 85%;
 }
 
 header h1{
@@ -26,10 +27,68 @@ main{
     align-items: center;
     padding: 10%;
 }
-
+#Fondo{
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
 #Calculadora{
-    background-color: black;
+    background-color: cadetblue;
     padding: 2%;
     border-radius: 5%;
     height: 200px;
+    border-color: 1px solid black;
+    height: 280px;
+    width: 250px;
+}
+
+.buttom{
+    color: tomato;
+    background-color: rgb(177, 59, 38);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    height: 40px;
+    width: 50px;
+    border-radius: 5px;
+    
+}
+
+#igual{
+    color: aquamarine;
+    background-color: rgb(32, 161, 118);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    height: 40px;
+    width: 50px;
+    border-radius: 5%;
+    
+}
+
+.operacion{
+    color: aqua;
+    background-color: rgb(1, 68, 68);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    height: 40px;
+    width: 55px;
+    border-radius: 5%;
+    margin: 3px;
+    
+}
+
+.restablecer{
+    background-color: rgb(122, 33, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    height: 40px;
+    width: 110px;
+    border-radius: 5%;
+}
+
+#Display{
+    background-color: beige;
+    width: 215px;
+    height: 33px;
+    font-size: 100%;
 }
